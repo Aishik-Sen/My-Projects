@@ -1,0 +1,8 @@
+make="make -j$(nproc)"
+chibicc='pwd'/tinycc
+
+dir=tinycc
+
+cd thirdparty
+cd $dir
+cd thirdparty/tinycc
